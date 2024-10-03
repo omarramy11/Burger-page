@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    padding:0 ;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;
+}
+/* Header */
+.header{
+    height: 800px;
+    width: 100%;
+    background: #888 url(../images/banner.jpg) no-repeat bottom/cover;
+    background-blend-mode: multiply;
+    overflow: hidden;
+}
+.inner{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.logo{
+    width: 300px;
+    height: 80px;
+    float: left;
+}
+.logo img{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.logo h3{
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+.navbar{
+    width: 400px;
+    height: 80px;
+    float: right;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+}
+.navbar ul li:first-of-type{
+    color: orange;
+}
+.navbar ul li:hover{
+    color: orange;
+    text-decoration: underline orange;
+    font-size: 20px;
+}
+.row{
+    clear: both;
+}
+.content-header{
+    width: 60%;
+    margin-top: 50px;
+}
+.content-header h2{
+    color: #fff;
+    font-size: 30px;
+}
+.content-header h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 120px;
+    margin-top: 0;
+}
+.content-header p{
+    color: #fff;
+}
+.content-header span:first-of-type{
+    background: orange;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-inline: 10px;
+}
+.content-header span:last-of-type{
+    border: 1px solid orange;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-inline: 10px;
+    color: orange;
+}
+/* First section */
+.first-section{
+    width: 100%;
+    min-height: 450px;
+    background: lightgray;
+    overflow: hidden;
+}
+.block {
+    width: 30%;
+    height: 350px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-block: 50px;
+    margin-inline: calc(10% / 6);
+}
+/* Second Section */
+.second-section{
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;
+}
+.leftside{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.leftside ul{
+    list-style: "\2661";
+}
+.leftside ul li{
+    font-size: 40px;
+    line-height: 90px;
+    padding-left: 20px;
+}
+.leftside ul li::marker{
+    color: orange;
+}
+.rightside{
+    width: 40%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.rightside img{
+    height: 100%;
+}
+.thrid-section{
+    height: 350px;
+    width: 100%;
+    background: #888 url(../images/bg.jpg) no-repeat 0 200px/cover fixed;
+    background-blend-mode: multiply;
+}
+
+.thridcontact{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.thridcontact p{
+    color: #fff;
+    font-size: 50px;
+}
+.thridcontact span:first-of-type{
+    background: orange;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-inline: 10px;
+}
+.thridcontact span:last-of-type{
+    border: 1px solid orange;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-inline: 10px;
+    color: orange;
+}
+.thridcontact p span:first-of-type{
+    color: orange;
+    background: transparent;
+    border: none;
+}
+.footer{
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
